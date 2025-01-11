@@ -1,0 +1,4 @@
+<!-- Example URDF placeholder -->
+<robot name="robot_octopus">
+  <link name="base_link"/>
+</robot>

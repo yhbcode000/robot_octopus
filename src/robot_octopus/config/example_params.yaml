@@ -1,0 +1,2 @@
+# Example parameters for sensor_node
+sensor_update_rate: 10.0

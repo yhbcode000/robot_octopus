@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_octopus</name>
+  <version>0.1.0</version>
+  <description>
+    A single ROS 2 package for a complete robot project with
+    sensor, perception, planning, control, actuator, global, plus custom msgs.
+  </description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build and exec dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- Optional: additional dependencies (std_msgs, geometry_msgs, etc.) -->
+  <!--
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
